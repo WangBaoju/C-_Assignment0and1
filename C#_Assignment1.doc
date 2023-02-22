@@ -1,0 +1,79 @@
+C# Assignment1 Written By Baoju Wang 2/20/2023
+
+Introduction to C# and Data Types
+
+Understanding Date Types
+
+    1. What type would you choose for the following “numbers”?
+        A person’s telephone number-----String
+        A person’s height          -----float
+        A person’s age             -----int
+        A person’s gender (Male, Female, Prefer Not To Answer) ---- String
+        A person’s salary          -----Decimal
+        A book’s ISBN              -----String
+        A book’s price             -----Decimal
+        A book’s shipping weight   -----double
+        A country’s population     -----long
+        The number of stars in the universe  ----- long
+        The number of employees in each of the small or medium businesses in the
+        United Kingdom (up to about 50,000 employees per business)  ----int
+    2. What are the difference between value type and reference type variables? What is boxing and unboxing?
+        The difference between value type and reference type variables
+            1)Value type will directly hold the value, while reference type will hold the memory address;
+            2)Value type are stored in stack memory, and reference type are stored in heap memory;
+            3)Value type will not be collected by garbage collecter, while reference type will be;
+            4)Value type can be created by Struct or Enum, while reference type can be created by class, interface, delegate or array;
+            5)Value type cannot accept null values, but reference type can accept null values.
+        Boxing: is the process of converting a value type to an object of the corresponding reference type;
+        Unboxing: is the process of converting a reference type that represents a boxed value type back to its original value type.
+
+    3. What is meant by the terms managed resource and unmanaged resource in .NET
+        Managed resource is a resource that is managed by the .NET Framework's garbage collector, which automatically free up memory 
+            that is no longer being used.
+        Unmanaged resource is a resource that is not managed by the .NET Framework's garbage collector.
+
+    4. Whats the purpose of Garbage Collector in .NET?
+        The purpose of Garbage Collector in .NET is to automatically manage memory allocation and deallocation for objects that are crested
+            during the execution of a .NET program.
+
+Controlling Flow and Converting Types
+    1. What happens when you divide an int variable by 0?
+        An System.DivdeByZeroException will be thrown.
+    2. What happens when you divide a double variable by 0?
+        The result of a double variable divide by 0 is  ∞.
+    3. What happens when you overflow an int variable, that is, set it to a value beyond its range?
+        It will wrap around to the minimum value it can hold (-2147483648) and continue counting up from there.
+
+    4. What is the difference between x = y++; and x = ++y;?
+        x = y++;
+        The value of y will assigned to variable x and then the value of y will incremented by 1.
+        x = ++y;
+        The value of variable y will be incremented by 1 first, then the resulting value of y will be assigned to x.
+
+    5. What is the difference between break, continue, and return when used inside a loop statement?
+        In C#, break, continue and return are keywords used inside a loop statement to change the control flow of the program.
+            break: is used to immediately terminate the loop and continue executing the program after the loop.
+            continue: is used to skip the current iteration of the loop and immediately move on to the next iteration.
+            return: is used to immediately terminate the loop and return a value to the caller.
+    6. What are the three parts of a for statement and which of them are required?
+        The three parts of a for statement are initialization, condition and iteration. 
+        The condition part is required.
+    7. What is the difference between the = and == operators?
+        The = operator is used to assign a value to a variable.
+        The == operator is used to compare the values of two variables or expression.
+    8. Does the following statement compile? for ( ; true; ) ;
+        Yes, the statement is valid for loop statement and it will compile without any errors.
+        But it is an infinite loop.
+    9. What does the underscore _ represent in a switch expression?
+        The underscore is used in a switch expression to match any value that has not been matched by 
+            other cases. 
+    10. What interface must an object implement to be enumerated over by using the foreach statement
+        The IEnumerable interface.
+
+Practice loops and operators
+    1. One error shown that the name "WriteLine" does not exist in the current context.
+        We can use the #warning preprocessor directive to warning this.
+
+
+
+
