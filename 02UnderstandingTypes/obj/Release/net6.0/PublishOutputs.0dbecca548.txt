@@ -1,0 +1,5 @@
+/Users/baojuwang/Desktop/Training/C#/02UnderstandingTypes
+/Users/baojuwang/Desktop/Training/C#/02UnderstandingTypes.dll
+/Users/baojuwang/Desktop/Training/C#/02UnderstandingTypes.deps.json
+/Users/baojuwang/Desktop/Training/C#/02UnderstandingTypes.runtimeconfig.json
+/Users/baojuwang/Desktop/Training/C#/02UnderstandingTypes.pdb

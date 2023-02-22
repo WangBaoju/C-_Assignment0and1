@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "DICEX1W1oVFtBtetaRWaLESIz3g3oz7RG40VByinbyzXExfUDVpSV1p1ZUOhoPAN3qTmiPVyWN2uQGeM9ze9uw==",
+  "success": true,
+  "projectFilePath": "/Users/baojuwang/Desktop/Training/C#/02UnderstandingTypes/C-_Assignment0and1/02UnderstandingTypes/02UnderstandingTypes.csproj",
+  "expectedPackageFiles": [
+    "/Users/baojuwang/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.12/microsoft.aspnetcore.app.ref.6.0.12.nupkg.sha512",
+    "/Users/baojuwang/.nuget/packages/microsoft.netcore.app.host.osx-arm64/6.0.12/microsoft.netcore.app.host.osx-arm64.6.0.12.nupkg.sha512",
+    "/Users/baojuwang/.nuget/packages/microsoft.netcore.app.ref/6.0.12/microsoft.netcore.app.ref.6.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}
